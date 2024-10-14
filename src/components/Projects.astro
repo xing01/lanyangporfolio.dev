@@ -2,6 +2,11 @@
 import GitHub from "./icons/GitHub.astro"
 import NextJS from "./icons/NextJS.astro"
 import Tailwind from "./icons/Tailwind.astro"
+import Html from "./icons/Html.astro"
+import Css from "./icons/Css.astro"
+import ReactNative from "./icons/ReactNative.astro"
+import Api from "./icons/Api.astro"
+import JavaScript from "./icons/JavaScript.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
 
@@ -13,27 +18,55 @@ const TAGS = {
   },
   TAILWIND: {
     name: "Tailwind CSS",
-    class: "bg-[#003159] text-white",
+    class: "bg-black text-white",
     icon: Tailwind,
   },
+  HTML: {
+    name: "HTML",
+    class: "bg-black text-white",
+    icon: Html,
+  },
+  CSS: {
+    name: "CSS",
+    class: "bg-black text-white",
+    icon: Css,
+  },
+  REACTNATIVE: {
+    name: "React Native",
+    class: "bg-black text-white",
+    icon: ReactNative,
+  },
+  JAVASCRIPT: {
+    name: "JavaScript",
+    class: "bg-black text-white",
+    icon: JavaScript,
+  },
+  API: {
+    name: "API",
+    class: "bg-[#003159] text-white",
+    icon: Api,
+  },
+
 }
 const PROJECTS = [
   {
-    title: "SVGL - A beautiful library with SVG logos",
+    title: "Simplylan - Blog",
     description:
-      "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://svgl.vercel.app/",
-    github: "https://github.com/pheralb/svgl",
-    image: "/projects/svgl.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "Blog de Viajes, Panoramas, Planificación y más. Descubre nuevas formas de viajar, encuentra inspiración para tu próximo destino y déjate llevar por historias que te transportarán a lugares increíbles.",
+    //link: "https://svgl.vercel.app/",
+    link: "https://simplylan.com",
+  
+    image: "/projects/simplylan.webp",
+    tags: [TAGS.HTML, TAGS.CSS],
   },
   {
-    title: "AdventJS - Retos de programación con JavaScript y TypeScript",
+    title: "SnapCuisine. - App móvil para encontrar recetas",
     description:
-      "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://adventjs.dev",
-    image: "/projects/adventjs.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "Aplicación móvil en desarrollo, construida con React Native, que incorpora un modelo de inteligencia artificial para el reconocimiento de ingredientes y sugiere recetas personalizadas.",
+    
+    github: "",
+    image: "/projects/appSC.webp",
+    tags: [TAGS.REACTNATIVE, TAGS.JAVASCRIPT],
   },
 ]
 ---
