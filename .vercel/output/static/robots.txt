@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lanyangporfolio-dev.vercel.app/sitemap-index.xml
