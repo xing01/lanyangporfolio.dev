@@ -1,7 +1,7 @@
 /* empty css                                      */
 import { c as createComponent, r as renderTemplate, a as renderComponent, m as maybeRenderHead } from '../chunks/astro/server_DPTWaUMx.mjs';
 import 'kleur/colors';
-import { $ as $$SectionContainer, a as $$Badge, b as $$SocialPill, c as $$LinkedIn, d as $$Layout } from '../chunks/Layout_fvqHmaib.mjs';
+import { $ as $$SectionContainer, a as $$Badge, b as $$SocialPill, c as $$LinkedIn, d as $$Layout } from '../chunks/Layout_DGYwiLtk.mjs';
 export { renderers } from '../renderers.mjs';
 
 const $$Components = createComponent(($$result, $$props, $$slots) => {
